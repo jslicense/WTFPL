@@ -7,6 +7,10 @@
     "WTFPL.json",
     "package.json"
   ],
+  "keywords": [
+    "jslicense",
+    "license"
+  ],
   "main": "WTFPL.json",
   "repository": "jslicense/WTFPL",
   "scripts": {
