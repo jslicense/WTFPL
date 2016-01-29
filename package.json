@@ -8,7 +8,7 @@
     "package.json"
   ],
   "main": "WTFPL.json",
-  "repository": "jslicense/wtfpl",
+  "repository": "jslicense/WTFPL",
   "scripts": {
     "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('WTFPL').toString()))\" > WTFPL.json"
   }
