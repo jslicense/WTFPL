@@ -1,0 +1,15 @@
+{
+  "name": "wtfpl",
+  "description": "Plaintext of The Do What the Fuck You Want to Public License from www.wtfpl.net",
+  "version": "0.0.0",
+  "files": [
+    "README.md",
+    "WTFPL.json",
+    "package.json"
+  ],
+  "main": "WTFPL.json",
+  "repository": "jslicense/wtfpl",
+  "scripts": {
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('WTFPL').toString()))\" > WTFPL.json"
+  }
+}
